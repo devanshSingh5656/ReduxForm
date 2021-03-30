@@ -211,7 +211,6 @@ const Form = (props) => {
 
 export default reduxForm({
   form: "MyForm", 
-  initialValues: { min: '1', max: '10' },
   validate,
  
 })(Form);
